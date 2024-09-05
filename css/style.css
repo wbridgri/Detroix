@@ -46,6 +46,18 @@ body {
     border-right: 1px solid #aaa;
 
 }
+
+.content-mini-box {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.content-mini-box .more-btn {
+    position: absolute;
+    bottom: 0;
+}
+
 .content-box:nth-child(3) {
     border-right: none;
 }
@@ -323,6 +335,12 @@ display: block;
     width: 50%;
     float: left;
     /* border: 1px solid dodgerblue; */
+}
+
+#ms2Row {
+    position: relative;
+    width: 100%;
+    height: 320px;
 }
 
 #newsList {
